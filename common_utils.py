@@ -10,4 +10,7 @@ pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/si
 
 shell:startup
 
+8.9.2.26
+conda install -c nvidia cuda-toolkit=11.8 cudnn=8.9.2.26
+
 
