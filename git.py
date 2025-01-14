@@ -42,3 +42,16 @@ fi
 # 确保本地 master 分支与远程同步（如果有需要）
 # 注意：仅当确定没有未提交的重要更改时使用此命令
 git reset --hard origin/master
+
+
+# 检查当前状态
+git status
+
+# 添加所有更改到暂存区
+git add .
+
+# 提交更改
+git commit -m "Add new feature and fix bugs"
+
+# 推送更改到远程仓库的 master 分支
+git push origin master
