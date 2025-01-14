@@ -97,3 +97,5 @@ git pull origin master
 
 # 验证同步状态
 git log --oneline --graph --all
+
+git remote set-url origin http://root:your-personal-access-token@192.168.0.203/root/speech-text.git
