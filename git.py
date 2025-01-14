@@ -7,3 +7,14 @@ git commit -m "Initial commit"
 git push -u origin master  # 如果默认分支是 main，则使用 'main' 而不是 'master'
 git push http://root:xxx@192.168.0.203/root/speech-text.git
 git push http://root:xxx@192.168.0.203/root/speech-text.git
+
+
+cd /d D:\Projects
+git clone http://root:xx@192.168.0.203/root/video-crawler.git
+cd video-crawler
+git remote add origin http://root:xx@192.168.0.203/root/video-crawler.git
+git fetch origin
+git branch -a
+git checkout -b master --track origin/master
+git checkout master
+git reset --hard origin/master
