@@ -76,3 +76,24 @@ git commit -m "Add new feature and fix bugs"
 
 # 推送更改到远程仓库的 master 分支
 git push origin master
+
+
+# 切换到 master 分支（如果有）
+git checkout master
+
+# 如果没有本地 master 分支，从远程创建一个
+git checkout -b master --track origin/master
+
+# 更新远程仓库信息
+git fetch origin
+
+# 查看远程和本地分支状态
+git branch -a
+
+# 合并远程 master 分支到本地
+git pull origin master
+
+# 解决任何可能出现的冲突（如果有的话）
+
+# 验证同步状态
+git log --oneline --graph --all
