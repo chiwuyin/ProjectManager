@@ -1,0 +1,4 @@
+ffmpeg -ss 10 -i input_audio.wav -t 5 -c copy output_clip.wav
+
+ffmpeg -ss 10 -i input_video.mp4 -t 5 -c copy output_clip.mp4
+
