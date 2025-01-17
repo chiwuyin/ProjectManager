@@ -99,3 +99,5 @@ git pull origin master
 git log --oneline --graph --all
 
 git remote set-url origin http://root:your-personal-access-token@192.168.0.203/root/speech-text.git
+
+git rm --cached path/to/example.txt
