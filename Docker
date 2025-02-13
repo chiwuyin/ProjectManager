@@ -7,3 +7,5 @@ docker build -t sound-separator-enh .
 docker run --name sound-separator-enh-container -it sound-separator-enh
 
 docker run --name sound-separator-enh-container -v E:/sound-separator-enh:/usr/src/app -it sound-separator-enh
+
+docker run --name sound-separator-enh-container -v X:/vt:/ss/vt -it sound-separator-enh
