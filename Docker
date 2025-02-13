@@ -15,3 +15,4 @@ docker run --name sound-separator-enh-container -v X:/vt:/ss/vt -it sound-separa
 docker exec -it sound-separator-enh-container /bin/bash
 ls -la /ss/vt
 
+docker-compose up
