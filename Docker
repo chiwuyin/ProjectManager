@@ -16,3 +16,5 @@ docker exec -it sound-separator-enh-container /bin/bash
 ls -la /ss/vt
 
 docker-compose up
+
+https://docs.portainer.io/start/install/server/docker/wsl
