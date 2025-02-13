@@ -1,0 +1,3 @@
+conda env export --no-builds > environment.yml
+
+docker build -t my-ubuntu2204-conda .
