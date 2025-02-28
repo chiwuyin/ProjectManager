@@ -4,3 +4,6 @@ ffmpeg -ss 10 -i input_video.mp4 -t 5 -c copy output_clip.mp4
 
 ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 5 -q:a 9 -acodec libmp3lame silent_audio.mp3
 
+ffmpeg -loop 1 -framerate 30 -t 3 -i input.jpg -c:v libx264 -pix_fmt yuv420p output.mp4
+
+
