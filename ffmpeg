@@ -2,3 +2,5 @@ ffmpeg -ss 10 -i input_audio.wav -t 5 -c copy output_clip.wav
 
 ffmpeg -ss 10 -i input_video.mp4 -t 5 -c copy output_clip.mp4
 
+ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 5 -q:a 9 -acodec libmp3lame silent_audio.mp3
+
