@@ -1,0 +1,1 @@
+jupyter nbconvert --to python agentic_rag_using_deepseek_qdrant_and_langchain.ipynb
