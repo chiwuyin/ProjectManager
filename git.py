@@ -101,3 +101,9 @@ git log --oneline --graph --all
 git remote set-url origin http://root:your-personal-access-token@192.168.0.203/root/speech-text.git
 
 git rm --cached path/to/example.txt
+
+# 删除所有已追踪的 __pycache__ 内容
+git rm -r --cached "**/__pycache__"
+
+# 提交更改
+git commit -m "Remove __pycache__ files from git tracking"
