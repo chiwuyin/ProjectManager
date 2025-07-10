@@ -1,0 +1,2 @@
+conda env export --no-builds --file environment.yml
+conda env create -f environment.yml
