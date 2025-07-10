@@ -1,2 +1,6 @@
 conda env export --no-builds --file environment.yml
 conda env create -f environment.yml
+
+conda config --show
+conda config --add envs_dirs C:\anaconda3\envs
+
