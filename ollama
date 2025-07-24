@@ -1,1 +1,9 @@
 move %USERPROFILE%\.ollama\models\* D:\OllamaModels\
+
+
+.\OllamaSetup.exe /DIR="D:\Ollama"
+
+OLLAMA_MODELS D:\OllamaModels
+
+
+
